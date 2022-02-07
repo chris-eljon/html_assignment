@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    color: white;
+}
+.regform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.regform h1 { 
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+.regform p {
+    font-size: 15px;
+    margin: 5px 0;
+}
+.regform input {
+    font-size: 15px;
+    padding: 5px 0px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.regform button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10 auto;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    display: block;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+}
+.gotologin{
+    text-align: center;
+}
+.loginform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.loginform h1 { 
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+.loginform p {
+    font-size: 15px;
+    margin: 5px 0;
+}
+.loginform input {
+    font-size: 15px;
+    padding: 10px 0px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.loginform button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10 auto;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    display: block;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+}
+.homepage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.homepage h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+.check {
+   display: block;
+   padding-left: 15px;
+   text-indent: -15px;
+}
+.check input {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 5px auto;
+    vertical-align: bottom;
+    position: relative;
+    top: 5px;
+    left: auto;
+}
+.gotoregister {
+    text-align: center;
+}
+ .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+
+  .row.content {height: 450px}
+  
+
+  .sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  
+
+  footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;} 
+  }
